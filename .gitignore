@@ -1,0 +1,4 @@
+*.iml
+target/
+.idea/
+https://github.com/AbandondR/swagger-spring-boot-starter.git
