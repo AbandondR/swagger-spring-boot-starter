@@ -1,0 +1,167 @@
+{
+  "groups" : [
+    {
+      "name" : "hello.swagger",
+      "type" : "com.imooc.helloworld.autoconfigure.SwaggerProperty"
+    },
+    {
+      "name": "hello.swagger.contact",
+      "type": "com.imooc.helloworld.autoconfigure.SwaggerProperty$Contact",
+      "sourceType": "com.imooc.helloworld.autoconfigure.SwaggerProperty",
+      "description": "联系"
+    },
+    {
+      "name": "hello.swagger.vendorExtensions",
+      "type": "com.imooc.helloworld.autoconfigure.SwaggerProperty$SimpleVendorExtension",
+      "sourceType": "com.imooc.helloworld.autoconfigure.SwaggerProperty",
+      "description": "供应商扩展"
+    }
+  ],
+  "properties" : [
+    {
+      "name" : "hello.swagger.title",
+      "type" : "java.lang.String",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty",
+      "defaultValue": "ApiInfo.DEFAULT.getTitle()"
+    },
+
+    {
+      "name" : "hello.swagger.description",
+      "type" : "java.lang.String",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty",
+      "defaultValue": "ApiInfo.DEFAULT#getDescription()"
+    },
+
+    {
+      "name" : "hello.swagger.version",
+      "type" : "java.lang.String",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty",
+      "defaultValue" : "ApiInfo.DEFAULT#getVersion()"
+    },
+
+    {
+      "name" : "hello.swagger.enabled",
+      "type" : "java.lang.Boolean",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty",
+      "defaultValue" : true
+    },
+
+    {
+      "name" : "hello.swagger.enableUrlTemplating",
+      "type" : "java.lang.Boolean",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty",
+      "defaultValue" : "false"
+    },
+
+    {
+      "name" : "hello.swagger.contact",
+      "type" : "com.imooc.helloworld.autoconfigure.SwaggerProperty$Contact",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty"
+    },{
+      "name" : "hello.swagger.contact.name",
+      "type" : "java.lang.String",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty"
+    },{
+      "name" : "hello.swagger.contact.url",
+      "type" : "java.lang.String",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty"
+    },{
+      "name" : "hello.swagger.contact.email",
+      "type" : "java.lang.String",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty"
+    },
+
+    {
+      "name" : "hello.swagger.basePackages",
+      "type" : "java.lang.String",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty"
+    },
+
+    {
+      "name" : "hello.swagger.termsOfServiceUrl",
+      "type" : "java.lang.String",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty",
+      "defaultValue": "ApiInfo.DEFAULT#getTermsOfServiceUrl()"
+    },
+
+    {
+      "name" : "hello.swagger.license",
+      "type" : "java.lang.String",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty",
+      "defaultValue": "ApiInfo.DEFAULT#getLicense()"
+    },
+
+    {
+      "name" : "hello.swagger.licenseUrl",
+      "type" : "java.lang.String",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty",
+      "defaultValue": "ApiInfo.DEFAULT.getTitle()"
+
+    },
+
+    {
+      "name" : "hello.swagger.paths",
+      "type" : "java.util.List<java.lang.String>",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty"
+    },
+
+    {
+      "name" : "hello.swagger.vendorExtensions",
+      "type" : "java.util.List<com.imooc.helloworld.autoconfigure.SwaggerProperty.SimpleVendorExtension>",
+      "sourceType" : "com.imooc.helloworld.autoconfigure.SwaggerProperty"
+    }
+
+  ],
+  "hints" : [
+    {
+      "name": "hello.swagger.title"
+    },
+    {
+      "name": "hello.swagger.description"
+    },
+    {
+      "name": "hello.swagger.version"
+    },
+    {
+      "name": "hello.swagger.contact.name"
+    },{
+      "name": "hello.swagger.contact.url"
+    },{
+      "name": "hello.swagger.contact.email"
+    },{
+      "name": "hello.swagger.termsOfServiceUrl"
+    },{
+      "name": "hello.swagger.license"
+    },{
+      "name": "hello.swagger.licenseUrl"
+    },{
+      "name": "hello.swagger.vendorExtensions.name"
+    },{
+      "name": "hello.swagger.vendorExtensions.value"
+    },{
+      "name": "hello.swagger.enableUrlTemplating",
+      "values": [
+        {
+          "value" : false
+        },
+        {
+          "value": true
+        }
+      ]
+    },{
+      "name": "hello.swagger.enable",
+      "values": [
+        {
+          "value" : false
+        },
+        {
+          "value": true
+        }
+      ]
+    },{
+      "name": "hello.swagger.basePackages"
+    },{
+      "name": "hello.swagger.paths"
+    }
+  ]
+}
